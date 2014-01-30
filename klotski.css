@@ -1,0 +1,181 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+div#game
+{
+    position: relative;
+    text-align: center;
+    
+    /* needed to prevent "selecting" it and its sub-elements (with
+       the many clicks due to the game) and "moving" them */
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div#frame
+{
+    position: relative;
+    display: inline-block;
+    background: #996600;
+    width: 200px;
+    height: 250px;
+    border: 7px ridge brown;
+}
+
+div#wrapper
+{
+    text-align: center;
+}
+
+p#button
+{
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 16px;
+    background: silver;
+    border: 5px solid gray;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+p#button:hover
+{
+    color: gray;
+}
+
+p#button:active
+{
+    color: silver;
+    border-color: silver;
+    background: white;
+}
+
+.block
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; /* create the border "inside" the element */
+    border: 4px ridge black;
+}
+
+.block:hover, .block:active
+{
+    border-width: 6px;
+}
+
+p#red1
+{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(ellipse at top left, firebrick, red);
+}
+
+p#blue1
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 100px;
+    background: radial-gradient(ellipse at top left, navy, blue);
+}
+
+p#blue2
+{
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    width: 50px;
+    height: 100px;
+    background: radial-gradient(ellipse at top left, navy, blue);
+}
+
+p#blue3
+{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 50px;
+    height: 100px;
+    background: radial-gradient(ellipse at top left, navy, blue);
+}
+
+p#blue4
+{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 50px;
+    height: 100px;
+    background: radial-gradient(ellipse at top left, navy, blue);
+}
+
+p#blue5
+{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 100px;
+    height: 50px;
+    background: radial-gradient(ellipse at top left, navy, blue);
+}
+
+p#green1
+{
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(ellipse at top left, darkgreen, limegreen);
+}
+
+p#green2
+{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(ellipse at top left, darkgreen, limegreen);
+}
+
+p#green3
+{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(ellipse at top left, darkgreen, limegreen);
+}
+
+p#green4
+{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(ellipse at top left, darkgreen, limegreen);
+}
+
