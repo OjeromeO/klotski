@@ -1,17 +1,17 @@
 
-*
-{
-    margin: 0;
-    padding: 0;
-}
-
-h1
+#gametitle
 {
     text-align: center;
     margin: 30px 0px;
 }
 
-div#game
+#game *
+{
+    margin: 0;
+    padding: 0;
+}
+
+#game
 {
     position: relative;
     text-align: center;
@@ -25,7 +25,7 @@ div#game
     user-select: none;
 }
 
-div#frame
+#frame
 {
     position: relative;
     display: inline-block;
@@ -35,12 +35,12 @@ div#frame
     border: 7px ridge brown;
 }
 
-div#wrapper
+#wrapper
 {
     text-align: center;
 }
 
-p#button
+#button
 {
     display: inline-block;
     color: white;
@@ -54,12 +54,12 @@ p#button
     margin-top: 10px;
 }
 
-p#button:hover
+#button:hover
 {
     color: gray;
 }
 
-p#button:active
+#button:active
 {
     color: silver;
     border-color: silver;
@@ -79,7 +79,7 @@ p#button:active
     border-width: 6px;
 }
 
-p#red1
+#red1
 {
     position: absolute;
     top: 0px;
@@ -92,7 +92,7 @@ p#red1
     background: radial-gradient(ellipse at top left, firebrick, red);
 }
 
-p#blue1
+#blue1
 {
     position: absolute;
     top: 0px;
@@ -105,7 +105,7 @@ p#blue1
     background: radial-gradient(ellipse at top left, navy, blue);
 }
 
-p#blue2
+#blue2
 {
     position: absolute;
     top: 0px;
@@ -131,7 +131,7 @@ p#blue3
     background: radial-gradient(ellipse at top left, navy, blue);
 }
 
-p#blue4
+#blue4
 {
     position: absolute;
     top: 100px;
@@ -144,7 +144,7 @@ p#blue4
     background: radial-gradient(ellipse at top left, navy, blue);
 }
 
-p#blue5
+#blue5
 {
     position: absolute;
     top: 100px;
@@ -157,7 +157,7 @@ p#blue5
     background: radial-gradient(ellipse at top left, navy, blue);
 }
 
-p#green1
+#green1
 {
     position: absolute;
     top: 200px;
@@ -170,7 +170,7 @@ p#green1
     background: radial-gradient(ellipse at top left, darkgreen, limegreen);
 }
 
-p#green2
+#green2
 {
     position: absolute;
     top: 150px;
@@ -183,7 +183,7 @@ p#green2
     background: radial-gradient(ellipse at top left, darkgreen, limegreen);
 }
 
-p#green3
+#green3
 {
     position: absolute;
     top: 150px;
@@ -196,7 +196,7 @@ p#green3
     background: radial-gradient(ellipse at top left, darkgreen, limegreen);
 }
 
-p#green4
+#green4
 {
     position: absolute;
     top: 200px;
